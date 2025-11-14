@@ -37,3 +37,8 @@ class AlumniAuthenticationForm(BootstrapFormMixin, AuthenticationForm):
         super().__init__(*args, **kwargs)
         self.fields['username'].widget.attrs['placeholder'] = 'name.surname@mitwpu.edu'
         self.fields['password'].widget.attrs['placeholder'] = '••••••••'
+
+def test_function():
+    pass
+
+        #testing comment
