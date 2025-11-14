@@ -6,3 +6,7 @@ class PortalConfig(AppConfig):
     name = 'portal'
 def ready(self):
         import portal.signals
+
+
+
+        print("Portal app is ready and signals are imported.")
